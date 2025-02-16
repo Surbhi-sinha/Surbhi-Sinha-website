@@ -36,3 +36,190 @@
     transform: rotate(360deg);
   }
 }
+
+.nav-item:hover {
+  border-bottom: #69021c solid 2px;
+}
+
+.nav-bgColor {
+  background-color: #d5bdaf;
+}
+
+.aboutmePage {
+  background-color: #edede9;
+}
+
+.bold-text-big-black {
+  font-family: "Triodion", serif;
+  font-weight: 800;
+  font-style: bold;
+  font-size: 3.2rem;
+}
+
+.bold-text-medium-black {
+  font-family: "Triodion", serif;
+  font-weight: 300;
+  font-style: bold;
+  font-size: 2rem;
+}
+
+.custom-Font {
+  font-family: "Triodion", serif;
+}
+.bold-text-normal-grey {
+  font-family: "Triodion", serif;
+  font-weight: 400;
+  font-style: bold;
+  color: gray;
+  font-size: 2rem;
+}
+
+.buttonAbout {
+  margin: 2%;
+  border: none;
+}
+.button-connect {
+  text-decoration: none; /* Removes underline */
+  color: white; /* Set text color */
+  font-size: 16px; /* Adjust size */
+  background-color: #69021c; /* Bootstrap primary blue */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block; /* Makes sure the button size is proper */
+  cursor: pointer;
+}
+b {
+  color: #69021c;
+}
+
+.background-right {
+  background-color: #f5ebe0;
+}
+
+.background-left {
+  background-color: #e3d5ca;
+}
+
+.background-dark {
+  background-color: #69021c;
+}
+
+.background-light {
+  background-color: #d5bdaf;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) *
+
+/* Style the back side */
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.langIcon {
+  color: #69021c;
+  background-color: white;
+  font-weight: bolder;
+  margin: 1%;
+  padding: 1%;
+}
+
+.hero_area {
+  /* position: relative; */
+  height: 10vh;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin-top: auto;
+  /* z-index: -1; */
+  /* background-color: black; */
+}
+
+.waves {
+  position: absolute;
+  width: 100%;
+  height: 15vh;
+  min-height: 100px;
+  max-height: 150px;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}
+
+/*Shrinking for mobile*/
+
+@media (max-width: 768px) {
+  .waves {
+    height: 40px;
+    min-height: 40px;
+  }
+}
+
+/* Waves Animation end*/
