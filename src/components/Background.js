@@ -9,7 +9,7 @@ const Background = () => {
           <div className='row justify-content-center h-100 m-3'>
             <div className='col-md-3 background-left p-5 bold-text-medium-black text-start'>Relevant Experience</div>
             <div className='col-md-8 background-right p-3'>
-              <div className='row'>
+              <div className='row animate__animated animate__backInRight'>
                 <div className='col-md-3'>01/2024-Current</div>
                 <div className='col-md-7 text-start'>
                   <h4><b>SOFTWARE ENGINEER</b></h4>
@@ -27,7 +27,7 @@ const Background = () => {
                   <hr />
                 </div>
               </div>
-              <div className='row'>
+              <div className='row animate__animated animate__backInLeft '>
                 <div className='col-md-3'>04/2023-06/2023</div>
                 <div className='col-md-7 text-start'>
                   <h4><b>Software Development Intern</b></h4>
@@ -52,7 +52,7 @@ const Background = () => {
           <div className='row justify-content-center h-100 m-3'>
             <div className='col-md-3 background-left p-5 bold-text-medium-black text-start'>Education, Certifications and Other Works</div>
             <div className='col-md-8 background-right p-3'>
-              <div className='row'>
+              <div className='row animate__animated animate__backInRight animate__delay-1s'>
                 <div className='col-md-3'>2020-2024</div>
                 <div className='col-md-7 text-start'>
                   <h4><b>Bachelors in Technology(BTech) Computer Science Engineering, </b></h4>
@@ -66,7 +66,7 @@ const Background = () => {
                   <hr />
                 </div>
               </div>
-              <div className='row'>
+              <div className='row animate__animated animate__backInLeft animate__delay-1s'>
                 <div className='col-md-3'>2017-2019</div>
                 <div className='col-md-7 text-start'>
                   <h4><b>Intermediate (PCM) Engineering, </b></h4>

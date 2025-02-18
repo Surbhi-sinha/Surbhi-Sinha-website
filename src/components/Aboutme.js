@@ -8,26 +8,88 @@ const Aboutme = () => {
    return (
       <div>
          <div className='aboutmePage'>
+
             <Navbar />
-            <div className="container mt-5">
+
+            <div className="">
                <div>
-                  <div className="row justify-content-center vh-100 m-3">
+                  <div className="row vh-100 mt-3 aboveElement">
+
                      <div className="col-md-5 d-flex flex-column justify-content-center align-items-center text-center">
-                        <div className='bold-text-big-black'>Surbhi Sinha</div>
-                        <div className='bold-text-normal-grey'>&lt; FullStack Developer / &gt;</div>
-                        <button className='buttonAbout'>
+                        <div className='typewriter'>Surbhi Sinha</div>
+                        <div className='bold-text-normal-grey animate__animated animate__backInUp animate__delay-0.5s'>&lt; FullStack Developer / &gt;</div>
+                        <button className='buttonAbout animate__animated animate__backInUp animate__delay-0.5s'>
                            <Link className='button-connect' to='/connect'>Reach out</Link>
                         </button>
                      </div>
-                     <div className="col-md-7 text-center p-5">
-                        <img src={aboutMeGif} alt='aboutMegif' style={{ width: "100%", height: '100%' }}></img>
+                     <div className="col-md-6 p-5 animate__animated animate__backInRight">
+                        <img src={aboutMeGif} alt='aboutMegif' style={{ width: "100%", height: '100%' }} />
                      </div>
                   </div>
                </div>
             </div>
+            <div className="tag-list m-3">
+                           <div className="loop-slider" style={{ "--duration": "15951ms", "--direction": "normal" }}>
+                              <div className="inner">
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> Next.js</div>
+                                 <div className="tag"><span>#</span> UI/UX</div>
+                                 {/* <!-- duplicated content --> */}
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> Next.js</div>
+                                 <div className="tag"><span>#</span> UI/UX</div>
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> Next.js</div>
+                                 <div className="tag"><span>#</span> UI/UX</div>
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> Next.js</div>
+                                 <div className="tag"><span>#</span> UI/UX</div>
+                              </div>
+                           </div>
+                           <div className="loop-slider" style={{ "--duration": "19260ms", "--direction": "reverse" }}>
+                              <div className="inner">
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Gatsby</div>
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> Tailwind</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 {/* <!-- duplicated content --> */}
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Gatsby</div>
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> Tailwind</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Gatsby</div>
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> Tailwind</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Gatsby</div>
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> Tailwind</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> webdev</div>
+                                 <div className="tag"><span>#</span> Gatsby</div>
+                                 <div className="tag"><span>#</span> JavaScript</div>
+                                 <div className="tag"><span>#</span> Tailwind</div>
+                                 <div className="tag"><span>#</span> Typescript</div>
+                              </div>
+                           </div>
+                           
+                           <div id="fade" ></div>
+                        </div>
             <div className='bg-light'>
                <div className='row vh-100 mt-3 '>
-                  <div className='col-md-6 p-5'>
+                  <div className='col-md-6 p-5 animate__animated animate__backInUp animate__delay-1s'>
                      <img src={Code_review} alt='code-reviewgif' style={{ width: "100%", height: '100%' }} />
                   </div>
                   <div className='col-md-6 p-5 text-start mb-5'>

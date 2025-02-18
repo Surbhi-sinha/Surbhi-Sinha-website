@@ -30,6 +30,9 @@ const Projects = () => {
                 <div className="flip-card-back background-light p-3">
                   <p className='text-start'>This FAQ system is designed to support multilingual environments, enabling seamless generation and management of FAQs in multiple languages. It leverages advanced technologies such as Redis for efficient caching and the Google Translate API for accurate and dynamic language translation.
                   </p>
+                  <p>
+                    HTML5, CSS3, JS, ReactJS, NodeJS, Docker
+                  </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/Multilingual_FAQ_system_UI" className='text-decoration-none text-reset'>
                       <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
@@ -55,6 +58,9 @@ const Projects = () => {
                 </div>
                 <div className="flip-card-back background-light p-3">
                   <p className='text-start'>The KAM Lead Management System has been designed to provide seamless lead management, user interaction, and task handling through an intuitive interface and robust backend. Below are the core features with detailed explanations and key functionalities.
+                  </p>
+                  <p>
+                    HTML5, CSS3, JS, ReactJS, NodeJS, Docker
                   </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/KAM_LEAD_MANAGEMENT_UI" className='text-decoration-none text-reset'>
@@ -83,6 +89,9 @@ const Projects = () => {
                 <div className="flip-card-back background-light p-3">
                   <p className='text-start'>A simple Tic-Tac-Toe game built with React.
                   </p>
+                  <p>
+                    HTML5, CSS3, JS, ReactJS
+                  </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/TicTacToe" className='text-decoration-none text-reset'>
                       <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
@@ -108,6 +117,9 @@ const Projects = () => {
                 </div>
                 <div className="flip-card-back background-light p-3">
                   <p className='text-start'>Modular component based architechture.Grid Component simply renders the data into the grid. features of the Grid (editable cells, sorting, represents the data into the tabular format).Here the data is provided by the backend server although user can defined there own JSON dataset and create there desirable grid
+                  </p>
+                  <p>
+                    HTML5, CSS3, JS, NodeJS
                   </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/DataGrid" className='text-decoration-none text-reset'>

@@ -84,19 +84,19 @@ const Connect = () => {
 
           </div>
         </div>
-        <div className='col-md-8 background-left h-100'>
-          <div className='p-5 m-5 background-right'>
+        <div className='col-md-8 background-left h-100 text-start'>
+          <div className='p-5 m-5 background-connect-form'>
           
           <form onSubmit={handleSubmit}>
-            <div className='form-label mt-2'>Name:</div>
-            <input type="text" name="name" placeholder="Name" onChange={handleChange} className='form-input w-75'required />
+            <div className='form-label mt-2 fs-5'>Your Name:</div>
+            <input type="text" name="name" placeholder="Helen Doe" onChange={handleChange} className='form-input w-100'required />
             
-            <div className='form-label mt-3'>Email:</div>
-            <input type="email" name="email" placeholder="Email" onChange={handleChange} 
-            className='form-input w-75' required />
+            <div className='form-label mt-3 fs-5'>Your Email:</div>
+            <input type="email" name="email" placeholder="HelenDoe@gmail.com" onChange={handleChange} 
+            className='form-input w-100' required />
 
-            <div className='form-label mt-3'>Message:</div>
-            <textarea name="message" className='form-input w-75' rows='8' placeholder="Message" onChange={handleChange} required />
+            <div className='form-label mt-3 fs-5'>Message:</div>
+            <textarea name="message" className='form-input w-100' rows='8' placeholder="Greetings of the Day!" onChange={handleChange} required />
             
             <div>
             <button type="submit" className='button-connect mt-3'>

@@ -49,12 +49,39 @@
   background-color: #edede9;
 }
 
-.bold-text-big-black {
+
+.typewriter {
   font-family: "Triodion", serif;
   font-weight: 800;
-  font-style: bold;
   font-size: 3.2rem;
+  overflow: hidden;
+  border-right: 0.1em solid #69021c;
+  white-space: nowrap;
+  display: inline-block; /* Ensures text width expands properly */
+  letter-spacing: 0.1em;
+  animation: typing 3.5s steps(14, end) forwards, blink-caret 0.75s step-end infinite;
 }
+
+/* Typing effect */
+@keyframes typing {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #69021c;
+  }
+}
+
 
 .bold-text-medium-black {
   font-family: "Triodion", serif;
@@ -74,6 +101,7 @@
   font-size: 2rem;
 }
 
+
 .buttonAbout {
   margin: 2%;
   border: none;
@@ -92,7 +120,10 @@
 b {
   color: #69021c;
 }
-
+.aboveElement{
+  position: relative;
+  z-index: 2000;
+}
 .background-right {
   background-color: #f5ebe0;
 }
@@ -165,7 +196,7 @@ b {
   left: 0;
   width: 100%;
   margin-top: auto;
-  /* z-index: -1; */
+  z-index: 3000;
   /* background-color: black; */
 }
 
@@ -223,3 +254,73 @@ b {
 }
 
 /* Waves Animation end*/
+
+.background-connect-form{
+  /* .border{ */
+  box-shadow: 10px 10px 8px 10px #888888;
+  background-color: rgba(213, 189, 175, 0.3);
+  border-radius: 2%;
+}
+
+
+.tag-list {
+  /* width: 30rem; */
+  /* max-width: 90vw; */
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 1rem 0;
+  position: relative;
+  padding: 1.5rem 0;
+  overflow: hidden;
+}
+
+.loop-slider {
+  .inner {
+    display: flex;
+    width: fit-content;
+    animation-name: loop;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: var(--direction);
+    animation-duration: var(--duration);
+  }
+  /* background-color: #8494b5; */
+}
+
+.tag {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  background-color: #69021c;
+  border-radius: 0.4rem;
+  padding: 0.7rem 1rem;
+  margin-right: 1rem; 
+  /* box-shadow: 
+    0 0.1rem 0.2rem rgb(#edede9 / 20%),
+    0 0.1rem 0.5rem rgb(#edede9 / 30%),
+    0 0.2rem 1.5rem rgb(#edede9 / 40%); */
+  
+  span {
+    font-size: 1.2rem;
+    color: #64748b;
+  }
+}
+
+#fade {
+  pointer-events: none ;
+  background: linear-gradient(90deg, #edede9, transparent 30%, transparent 70%, #edede9) ;
+  position: absolute;
+  inset: 0;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
