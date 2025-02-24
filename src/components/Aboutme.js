@@ -23,7 +23,7 @@ const Aboutme = () => {
                         </button>
                      </div>
                      <div className="col-md-6 p-5 animate__animated animate__backInRight">
-                        <img src={aboutMeGif} alt='aboutMegif' style={{ width: "100%", height: '100%' }} />
+                        <img src={aboutMeGif} alt='aboutMegif' style={{ width: "100%", height: '100%', zIndex:'-1' }} />
                      </div>
                   </div>
                </div>
@@ -37,51 +37,51 @@ const Aboutme = () => {
                                  <div className="tag"><span>#</span> Next.js</div>
                                  <div className="tag"><span>#</span> UI/UX</div>
                                  {/* <!-- duplicated content --> */}
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
-                                 <div className="tag"><span>#</span> Next.js</div>
-                                 <div className="tag"><span>#</span> UI/UX</div>
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
-                                 <div className="tag"><span>#</span> Next.js</div>
-                                 <div className="tag"><span>#</span> UI/UX</div>
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
-                                 <div className="tag"><span>#</span> Next.js</div>
-                                 <div className="tag"><span>#</span> UI/UX</div>
+                                 <div className="tag"><span>#</span> ReactJS</div>
+                                 <div className="tag"><span>#</span> NodeJS</div>
+                                 <div className="tag"><span>#</span> CI/CD</div>
+                                 <div className="tag"><span>#</span> MySQL</div>
+                                 <div className="tag"><span>#</span> Git</div>
+                                 <div className="tag"><span>#</span> Github</div>
+                                 <div className="tag"><span>#</span> HTML5</div>
+                                 <div className="tag"><span>#</span> CSS3</div>
+                                 <div className="tag"><span>#</span> Visual Studio</div>
+                                 <div className="tag"><span>#</span> Linux</div>
+                                 <div className="tag"><span>#</span> Rest API</div>
+                                 <div className="tag"><span>#</span> Github Actions</div>
+                                 <div className="tag"><span>#</span> PostMan</div>
+                                 <div className="tag"><span>#</span> C#</div>
+                                 <div className="tag"><span>#</span> Java</div>
                               </div>
                            </div>
                            <div className="loop-slider" style={{ "--duration": "19260ms", "--direction": "reverse" }}>
                               <div className="inner">
                                  <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Gatsby</div>
+                                 <div className="tag"><span>#</span> BootStrap</div>
                                  <div className="tag"><span>#</span> JavaScript</div>
                                  <div className="tag"><span>#</span> Tailwind</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> LESS</div>
                                  {/* <!-- duplicated content --> */}
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Gatsby</div>
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> Tailwind</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Gatsby</div>
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> Tailwind</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Gatsby</div>
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> Tailwind</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Gatsby</div>
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> Tailwind</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
+                                 <div className="tag"><span>#</span> SASS</div>
+                                 <div className="tag"><span>#</span> MVVM</div>
+                                 <div className="tag"><span>#</span> MVC</div>
+                                 <div className="tag"><span>#</span> Monolithic</div>
+                                 <div className="tag"><span>#</span> ExpressJS</div>
+                                 <div className="tag"><span>#</span> Gitlab</div>
+                                 <div className="tag"><span>#</span> Micro-Frontend</div>
+                                 <div className="tag"><span>#</span> Agile</div>
+                                 <div className="tag"><span>#</span> Telemetry</div>
+                                 <div className="tag"><span>#</span> ES6+</div>
+                                 <div className="tag"><span>#</span> OOPS</div>
+                                 <div className="tag"><span>#</span> .NET</div>
+                                 <div className="tag"><span>#</span> Sequelize</div>
+                                 <div className="tag"><span>#</span> SystemJS</div>
+                                 <div className="tag"><span>#</span> NPM</div>
+                                 <div className="tag"><span>#</span> YARN</div>
+                                 <div className="tag"><span>#</span> Backend</div>
+                                 <div className="tag"><span>#</span> Redis</div>
+                                 <div className="tag"><span>#</span> Docker</div>
+                                 <div className="tag"><span>#</span> VS Code</div>
                               </div>
                            </div>
                            

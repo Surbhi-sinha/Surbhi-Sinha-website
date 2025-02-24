@@ -296,13 +296,12 @@ b {
   font-size: 0.9rem;
   background-color: #69021c;
   border-radius: 0.4rem;
-  padding: 0.7rem 1rem;
+  padding: 0.1rem 1rem;
   margin-right: 1rem; 
-  /* box-shadow: 
-    0 0.1rem 0.2rem rgb(#edede9 / 20%),
-    0 0.1rem 0.5rem rgb(#edede9 / 30%),
-    0 0.2rem 1.5rem rgb(#edede9 / 40%); */
-  
+  box-shadow: 
+    0 0.1rem 0.2rem rgb(#a4a4a2 / 20%),
+    0 0.1rem 0.5rem rgb(#a4a4a2 / 30%),
+    0 0.2rem 1.5rem rgb(#a4a4a2 / 40%);
   span {
     font-size: 1.2rem;
     color: #64748b;
