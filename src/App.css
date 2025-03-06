@@ -13,6 +13,17 @@
   }
 }
 
+.scroll-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: var(--scrollProgress, 0%);
+  background: linear-gradient(to right, #69021c, #69021c);
+  transition: width 0.2s ease-out;
+  z-index: 9999;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -37,6 +48,9 @@
   }
 }
 
+.navigation{
+  z-index: 9999;
+}
 .nav-item:hover {
   border-bottom: #69021c solid 2px;
 }
@@ -101,6 +115,9 @@
   font-size: 2rem;
 }
 
+.background-skill-left{
+background-color: #E9D5C8;
+}
 
 .buttonAbout {
   margin: 2%;
@@ -117,6 +134,11 @@
   display: inline-block; /* Makes sure the button size is proper */
   cursor: pointer;
 }
+
+.buttonAbout :hover{
+  transform: scale(1.2);
+}
+
 b {
   color: #69021c;
 }
@@ -284,8 +306,23 @@ b {
     animation-iteration-count: infinite;
     animation-direction: var(--direction);
     animation-duration: var(--duration);
-  }
+  } 
   /* background-color: #8494b5; */
+  .inner:hover{
+    animation-play-state: paused;
+  }
+}
+
+
+.normaldirection{
+  --duration: 15951ms;
+  --direction: normal;
+}
+
+
+.reversedirection{
+  --duration:19260ms;
+  --direction: reverse;
 }
 
 .tag {
@@ -306,6 +343,10 @@ b {
     font-size: 1.2rem;
     color: #64748b;
   }
+}
+
+.tag:hover{
+  transform: scale(1.2);
 }
 
 #fade {

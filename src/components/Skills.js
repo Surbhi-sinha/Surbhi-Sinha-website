@@ -82,7 +82,7 @@ const Skills = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className='mt-5'>
         <div className='row justify-content-center mt-3 custom-Font'>
           <div className='col-md-4 background-dark text-light p-5'>
             <div className='animate__animated animate__backInDown animate__delay-0.3s'>
@@ -94,7 +94,7 @@ const Skills = () => {
               <h3 className='mt-3'> &lt;MERN STACK/&gt;</h3>
             </div>
           </div>
-          <div className='col-md-4 background-light'>
+          <div className='col-md-4 background-skill-left'>
             {skills_left.map((skills_left, index) => (
               <div key={index} className="p-3 m-3">
                 <div className="row">

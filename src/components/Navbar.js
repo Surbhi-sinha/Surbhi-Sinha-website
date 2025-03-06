@@ -1,12 +1,12 @@
 import React from 'react'
 
 import { Link } from 'react-router-dom';
-
+import ScrollProgress from "../components/ScrollProgress"
 
 const Navbar = () => {
    return (
       <div>
-         <nav className="navbar navbar-expand-lg nav-bgColor custom-Font">
+         <nav className="navbar navbar-expand-lg nav-bgColor custom-Font position-fixed top-0 start-0 w-100 navigation">
             <div className='container-fluid'>
                <button className='navbar-toggler' type='button' data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span className='navbar-toggler-icon'></span>
@@ -34,6 +34,7 @@ const Navbar = () => {
                </div>
             </div>
          </nav>
+         <ScrollProgress/>
       </div>
    )
 }

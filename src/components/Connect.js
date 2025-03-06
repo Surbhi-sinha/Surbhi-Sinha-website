@@ -47,15 +47,15 @@ const Connect = () => {
   return (
     <div>
       <Navbar />
-      <div className='row vh-100 custom-Font'>
+      <div className='row vh-100 custom-Font mt-5'>
         <div className='col-md-4 background-dark h-100 text-light text-start p-5'>
           <h1>Connect With Me </h1>
           <hr />
           <div>
             <div className='mt-5'>
-              <p>email: astsurbhisinha@gmail.com</p>
-              <p>github: <a href="https://github.com/Surbhi-sinha" className='text-decoration-none text-reset'>https://github.com/Surbhi-sinha</a></p>
-              <p>Website: <a href="https://surbhi-portfolio-beige.vercel.app/" className='text-decoration-none text-reset'>Surbhi-Sinha</a></p>
+              <p>Email: astsurbhisinha@gmail.com</p>
+              <p>Github: <a href="https://github.com/Surbhi-sinha" className='text-decoration-none text-reset'>https://github.com/Surbhi-sinha</a></p>
+              <p>Website: <a href="https://surbhi-portfolio-beige.vercel.app/" className='text-decoration-none text-reset'>https://surbhi-portfolio-beige.vercel.app/</a></p>
             </div>
 
             <div className='mt-5'>

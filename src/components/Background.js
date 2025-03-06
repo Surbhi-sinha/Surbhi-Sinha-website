@@ -4,7 +4,7 @@ const Background = () => {
   return (
     <div>
       <Navbar />
-      <div className='container custom-Font'>
+      <div className='container custom-Font mt-5'>
         <div className='mt-5'>
           <div className='row justify-content-center h-100 m-3'>
             <div className='col-md-3 background-left p-5 bold-text-medium-black text-start'>Relevant Experience</div>

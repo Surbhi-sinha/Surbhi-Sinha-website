@@ -3,14 +3,12 @@ import Navbar from './Navbar';
 import aboutMeGif from '../assets/aboutMe.gif';
 import Code_review from '../assets/Code_review.gif';
 import { Link } from 'react-router-dom';
-
 const Aboutme = () => {
    return (
-      <div>
+      <div className='mt-5'>
          <div className='aboutmePage'>
 
             <Navbar />
-
             <div className="">
                <div>
                   <div className="row vh-100 mt-3 aboveElement">
@@ -23,70 +21,68 @@ const Aboutme = () => {
                         </button>
                      </div>
                      <div className="col-md-6 p-5 animate__animated animate__backInRight">
-                        <img src={aboutMeGif} alt='aboutMegif' style={{ width: "100%", height: '100%', zIndex:'-1' }} />
+                        <img src={aboutMeGif} alt='aboutMegif' style={{ width: "100%", height: '100%', zIndex: '-1' }} />
                      </div>
                   </div>
                </div>
             </div>
             <div className="tag-list m-3">
-                           <div className="loop-slider" style={{ "--duration": "15951ms", "--direction": "normal" }}>
-                              <div className="inner">
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> Typescript</div>
-                                 <div className="tag"><span>#</span> Next.js</div>
-                                 <div className="tag"><span>#</span> UI/UX</div>
-                                 {/* <!-- duplicated content --> */}
-                                 <div className="tag"><span>#</span> ReactJS</div>
-                                 <div className="tag"><span>#</span> NodeJS</div>
-                                 <div className="tag"><span>#</span> CI/CD</div>
-                                 <div className="tag"><span>#</span> MySQL</div>
-                                 <div className="tag"><span>#</span> Git</div>
-                                 <div className="tag"><span>#</span> Github</div>
-                                 <div className="tag"><span>#</span> HTML5</div>
-                                 <div className="tag"><span>#</span> CSS3</div>
-                                 <div className="tag"><span>#</span> Visual Studio</div>
-                                 <div className="tag"><span>#</span> Linux</div>
-                                 <div className="tag"><span>#</span> Rest API</div>
-                                 <div className="tag"><span>#</span> Github Actions</div>
-                                 <div className="tag"><span>#</span> PostMan</div>
-                                 <div className="tag"><span>#</span> C#</div>
-                                 <div className="tag"><span>#</span> Java</div>
-                              </div>
-                           </div>
-                           <div className="loop-slider" style={{ "--duration": "19260ms", "--direction": "reverse" }}>
-                              <div className="inner">
-                                 <div className="tag"><span>#</span> webdev</div>
-                                 <div className="tag"><span>#</span> BootStrap</div>
-                                 <div className="tag"><span>#</span> JavaScript</div>
-                                 <div className="tag"><span>#</span> Tailwind</div>
-                                 <div className="tag"><span>#</span> LESS</div>
-                                 {/* <!-- duplicated content --> */}
-                                 <div className="tag"><span>#</span> SASS</div>
-                                 <div className="tag"><span>#</span> MVVM</div>
-                                 <div className="tag"><span>#</span> MVC</div>
-                                 <div className="tag"><span>#</span> Monolithic</div>
-                                 <div className="tag"><span>#</span> ExpressJS</div>
-                                 <div className="tag"><span>#</span> Gitlab</div>
-                                 <div className="tag"><span>#</span> Micro-Frontend</div>
-                                 <div className="tag"><span>#</span> Agile</div>
-                                 <div className="tag"><span>#</span> Telemetry</div>
-                                 <div className="tag"><span>#</span> ES6+</div>
-                                 <div className="tag"><span>#</span> OOPS</div>
-                                 <div className="tag"><span>#</span> .NET</div>
-                                 <div className="tag"><span>#</span> Sequelize</div>
-                                 <div className="tag"><span>#</span> SystemJS</div>
-                                 <div className="tag"><span>#</span> NPM</div>
-                                 <div className="tag"><span>#</span> YARN</div>
-                                 <div className="tag"><span>#</span> Backend</div>
-                                 <div className="tag"><span>#</span> Redis</div>
-                                 <div className="tag"><span>#</span> Docker</div>
-                                 <div className="tag"><span>#</span> VS Code</div>
-                              </div>
-                           </div>
-                           
-                           <div id="fade" ></div>
-                        </div>
+               <div className="loop-slider normaldirection">
+                  <div className="inner">
+                     <div className="tag"><span>#</span> JavaScript</div>
+                     <div className="tag"><span>#</span> webdev</div>
+                     <div className="tag"><span>#</span> Typescript</div>
+                     <div className="tag"><span>#</span> Next.js</div>
+                     <div className="tag"><span>#</span> UI/UX</div>
+                     <div className="tag"><span>#</span> ReactJS</div>
+                     <div className="tag"><span>#</span> NodeJS</div>
+                     <div className="tag"><span>#</span> CI/CD</div>
+                     <div className="tag"><span>#</span> MySQL</div>
+                     <div className="tag"><span>#</span> Git</div>
+                     <div className="tag"><span>#</span> Github</div>
+                     <div className="tag"><span>#</span> HTML5</div>
+                     <div className="tag"><span>#</span> CSS3</div>
+                     <div className="tag"><span>#</span> Visual Studio</div>
+                     <div className="tag"><span>#</span> Linux</div>
+                     <div className="tag"><span>#</span> Rest API</div>
+                     <div className="tag"><span>#</span> Github Actions</div>
+                     <div className="tag"><span>#</span> PostMan</div>
+                     <div className="tag"><span>#</span> C#</div>
+                     <div className="tag"><span>#</span> Java</div>
+                  </div>
+               </div>
+               <div className="loop-slider reversedirection" >
+                  <div className="inner">
+                     <div className="tag"><span>#</span> webdev</div>
+                     <div className="tag"><span>#</span> BootStrap</div>
+                     <div className="tag"><span>#</span> JavaScript</div>
+                     <div className="tag"><span>#</span> Tailwind</div>
+                     <div className="tag"><span>#</span> LESS</div>
+                     <div className="tag"><span>#</span> SASS</div>
+                     <div className="tag"><span>#</span> MVVM</div>
+                     <div className="tag"><span>#</span> MVC</div>
+                     <div className="tag"><span>#</span> Monolithic</div>
+                     <div className="tag"><span>#</span> ExpressJS</div>
+                     <div className="tag"><span>#</span> Gitlab</div>
+                     <div className="tag"><span>#</span> Micro-Frontend</div>
+                     <div className="tag"><span>#</span> Agile</div>
+                     <div className="tag"><span>#</span> Telemetry</div>
+                     <div className="tag"><span>#</span> ES6+</div>
+                     <div className="tag"><span>#</span> OOPS</div>
+                     <div className="tag"><span>#</span> .NET</div>
+                     <div className="tag"><span>#</span> Sequelize</div>
+                     <div className="tag"><span>#</span> SystemJS</div>
+                     <div className="tag"><span>#</span> NPM</div>
+                     <div className="tag"><span>#</span> YARN</div>
+                     <div className="tag"><span>#</span> Backend</div>
+                     <div className="tag"><span>#</span> Redis</div>
+                     <div className="tag"><span>#</span> Docker</div>
+                     <div className="tag"><span>#</span> VS Code</div>
+                  </div>
+               </div>
+
+               <div id="fade" ></div>
+            </div>
             <div className='bg-light'>
                <div className='row vh-100 mt-3 '>
                   <div className='col-md-6 p-5 animate__animated animate__backInUp animate__delay-1s'>
@@ -117,11 +113,11 @@ const Aboutme = () => {
                         <ul className='list-unstyled' >
 
                            <li>✔  <b>Backend</b>:  Node.js, Express.js, MySQL</li>
-                           <li>✔  <b>Frontend</b>:  React.js, Bootstrap, HTML5, CSS3, Tailwind CSS</li>
-                           <li>✔  <b>System Design</b>:  Database modeling, API development, role-based access control</li>
-                           <li>✔  <b>Other Expertise</b>:  Caching, multilingual support, security best practices</li>
+                           <li>✔  <b>Frontend</b>:  React.js, Bootstrap, HTML5, CSS3, Tailwind CSS, SASS</li>
+                           <li>✔  <b>System Design</b>:  Database modeling, API development, REST-API, role-based access control</li>
+                           <li>✔  <b>Other Expertise</b>:  Caching, multilingual support, security best practices, Webpack and module bundlers</li>
                            <li>✔   <b>Tools</b>:
-                              Postman, Git, Gitlab, CI/CD(Github/Gitlab), SQL Management Studio, Visual Studio Code, SQL Server Workbench CE, Redis and Docker</li>
+                              Postman, Git, Gitlab, CI/CD(Github Actions/Jenkins), SQL Management Studio, Visual Studio Code, SQL Server Workbench CE, Redis and Docker</li>
 
                         </ul>
                      </div>

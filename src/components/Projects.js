@@ -3,7 +3,6 @@ import Navbar from './Navbar'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faDocker,faPython } from "@fortawesome/free-brands-svg-icons";
-// import { faArrowUpRightFromSquare } from "@fortawesome/fontawesome-common-types";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
@@ -11,7 +10,7 @@ const Projects = () => {
   return (
     <div>
       <Navbar />
-      <div className='custom-Font p-3'>
+      <div className='custom-Font p-3 mt-5 container'>
         <div className='row'>
           <div className='col-md-3'>
             <div className="flip-card m-3">
@@ -83,8 +82,6 @@ const Projects = () => {
                   <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
                   <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
                   <FontAwesomeIcon icon={faReact} size="2x" className='m-1' />
-                  {/* <FontAwesomeIcon icon={faNodeJs} size="2x" className='m-1' />
-                  <FontAwesomeIcon icon={faDocker} size='2x' className='m-1' /> */}
                 </div>
                 <div className="flip-card-back background-light p-3">
                   <p className='text-start'>A simple Tic-Tac-Toe game built with React.
@@ -111,9 +108,7 @@ const Projects = () => {
                   <FontAwesomeIcon icon={faHtml5} size="2x" className='m-1' />
                   <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
                   <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
-                  {/* <FontAwesomeIcon icon={faReact} size="2x" className='m-1' /> */}
                   <FontAwesomeIcon icon={faNodeJs} size="2x" className='m-1' />
-                  {/* <FontAwesomeIcon icon={faDocker} size='2x' className='m-1' /> */}
                 </div>
                 <div className="flip-card-back background-light p-3">
                   <p className='text-start'>Modular component based architechture.Grid Component simply renders the data into the grid. features of the Grid (editable cells, sorting, represents the data into the tabular format).Here the data is provided by the backend server although user can defined there own JSON dataset and create there desirable grid
@@ -146,7 +141,7 @@ const Projects = () => {
                 </div>
                 <div className="flip-card-back background-light p-3">
                   <p className='text-start'>
-                    The Desktop Calculator is a fully functional, user-friendly calculator built with JavaScript and React. It supports essential arithmetic operations like addition, subtraction, multiplication, and division, along with advanced features such as:
+                    The Desktop Calculator is a fully functional, user-friendly calculator built with C# and .NET. It supports essential arithmetic operations like addition, subtraction, multiplication, and division, along with advanced features such as:
 
                     ✔ Responsive UI
                     ✔ Keyboard Support
