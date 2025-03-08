@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faDocker,faPython } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3Alt, faJs, faReact, faNodeJs, faDocker, faPython, faBootstrap } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
@@ -74,23 +74,29 @@ const Projects = () => {
             <div className="flip-card m-3">
               <div className="flip-card-inner">
                 <div className="flip-card-front background-dark text-light p-4">
-                  <h3>Tic-Tac-Toe</h3>
-                  <h3>Game</h3>
+                  <h3>Secret Santa</h3>
                   <hr />
                   <h4>Stack</h4>
                   <FontAwesomeIcon icon={faHtml5} size="2x" className='m-1' />
                   <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
                   <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
                   <FontAwesomeIcon icon={faReact} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faNodeJs} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faBootstrap} size="2x" className='m-1' />
                 </div>
                 <div className="flip-card-back background-light p-3">
-                  <p className='text-start'>A simple Tic-Tac-Toe game built with React.
+                  <p className='text-start'>Make your Secret Santa gift exchange seamless with our automated Secret Santa assignment system! 🎄
+                    <p>
+                      ✅ No employee is assigned to themselves.
+                      ✅ No employee gets the same Secret Child as last year (if available).
+                      ✅ Each employee is assigned exactly one unique Secret Child.
+                    </p>
                   </p>
                   <p>
-                    HTML5, CSS3, JS, ReactJS
+                    HTML5, CSS3, JS, TS, ReactJS, NodeJS, Bootstrap, Multer, Vercel, Render
                   </p>
                   <div className='text-end'>
-                    <a href="https://github.com/Surbhi-sinha/TicTacToe" className='text-decoration-none text-reset'>
+                    <a href="https://secret-santa-frontend-self.vercel.app/" className='text-decoration-none text-reset'>
                       <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
                     </a>
                   </div>
@@ -186,10 +192,38 @@ const Projects = () => {
             <div className="flip-card m-3">
               <div className="flip-card-inner">
                 <div className="flip-card-front background-dark text-light p-4">
+                  <h3>Tic-Tac-Toe</h3>
+                  <h3>Game</h3>
+                  <hr />
+                  <h4>Stack</h4>
+                  <FontAwesomeIcon icon={faHtml5} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faReact} size="2x" className='m-1' />
+                </div>
+                <div className="flip-card-back background-light p-3">
+                  <p className='text-start'>A simple Tic-Tac-Toe game built with React.
+                  </p>
+                  <p>
+                    HTML5, CSS3, JS, ReactJS
+                  </p>
+                  <div className='text-end'>
+                    <a href="https://tic-tac-toe-six-wine-49.vercel.app/" className='text-decoration-none text-reset'>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3'>
+            <div className="flip-card m-3">
+              <div className="flip-card-inner">
+                <div className="flip-card-front background-dark text-light p-4">
                   <h3>Project Name</h3>
                   <hr />
                   <h4>Stack</h4>
-                  
+
                   <hr />
                   <h4>Libraries</h4>
                   <span className='langIcon'>Soon..</span>
