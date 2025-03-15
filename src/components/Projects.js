@@ -74,6 +74,38 @@ const Projects = () => {
             <div className="flip-card m-3">
               <div className="flip-card-inner">
                 <div className="flip-card-front background-dark text-light p-4">
+                  <h3>The CarStudio</h3>
+                  <hr />
+                  <h4>Stack</h4>
+                  <FontAwesomeIcon icon={faHtml5} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faReact} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faNodeJs} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faBootstrap} size="2x" className='m-1' />
+                </div>
+                <div className="flip-card-back background-light p-3">
+                  <p className='text-start'>
+                    <p>
+                    The CarStudio is a web application designed for car enthusiasts, offering a seamless and immersive experience in car customization and exploration. The platform features a 3D car customization tool where users can modify car and view their customized car in a fully interactive 3D environment using .glb files.
+                    </p>
+                  </p>
+                  <p>
+                    HTML5, CSS3, JS, ReactJS, Bootstrap, Vercel
+                  </p>
+                  <div className='text-end'>
+                    <a href="https://the-car-studio.vercel.app/" className='text-decoration-none text-reset'>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3'>
+            <div className="flip-card m-3">
+              <div className="flip-card-inner">
+                <div className="flip-card-front background-dark text-light p-4">
                   <h3>Secret Santa</h3>
                   <hr />
                   <h4>Stack</h4>
