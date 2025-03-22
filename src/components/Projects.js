@@ -12,35 +12,7 @@ const Projects = () => {
       <Navbar />
       <div className='custom-Font p-3 mt-5 container'>
         <div className='row'>
-          <div className='col-md-3'>
-            <div className="flip-card m-3">
-              <div className="flip-card-inner">
-                <div className="flip-card-front background-dark text-light p-4">
-                  <h3>Multilingual FAQ System</h3>
-                  <hr />
-                  <h4>Stack</h4>
-                  <FontAwesomeIcon icon={faHtml5} size="2x" className='m-1' />
-                  <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
-                  <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
-                  <FontAwesomeIcon icon={faReact} size="2x" className='m-1' />
-                  <FontAwesomeIcon icon={faNodeJs} size="2x" className='m-1' />
-                  <FontAwesomeIcon icon={faDocker} size='2x' className='m-1' />
-                </div>
-                <div className="flip-card-back background-light p-3">
-                  <p className='text-start'>This FAQ system is designed to support multilingual environments, enabling seamless generation and management of FAQs in multiple languages. It leverages advanced technologies such as Redis for efficient caching and the Google Translate API for accurate and dynamic language translation.
-                  </p>
-                  <p>
-                    HTML5, CSS3, JS, ReactJS, NodeJS, Docker
-                  </p>
-                  <div className='text-end'>
-                    <a href="https://github.com/Surbhi-sinha/Multilingual_FAQ_system_UI" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <div className='col-md-3'>
             <div className="flip-card m-3">
               <div className="flip-card-inner">
@@ -63,7 +35,7 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/KAM_LEAD_MANAGEMENT_UI" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />github link</b>
                     </a>
                   </div>
                 </div>
@@ -95,7 +67,7 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://the-car-studio.vercel.app/" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />Live demo</b>
                     </a>
                   </div>
                 </div>
@@ -129,7 +101,38 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://secret-santa-frontend-self.vercel.app/" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />Live demo</b>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3'>
+            <div className="flip-card m-3">
+              <div className="flip-card-inner">
+                <div className="flip-card-front background-dark text-light p-4">
+                  <h3>Task Buddy</h3>
+                  <hr />
+                  <h4>Stack</h4>
+                  <FontAwesomeIcon icon={faHtml5} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faReact} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faBootstrap} size="2x" className='m-1' />
+                </div>
+                <div className="flip-card-back background-light p-3">
+                  <p className='text-start'>
+                    <p>
+                    TaskBuddy is a comprehensive task management application designed to help you organize your personal and professional life with ease. Whether you're managing daily to-dos, tracking project milestones, or collaborating with a team, TaskBuddy provides the tools you need to stay productive and focused.
+                    </p>
+                  </p>
+                  <p>
+                    HTML5, CSS3, JS, ReactJS, Firebase Auth, Bootstrap,  Vercel
+                  </p>
+                  <div className='text-end'>
+                    <a href="https://taskbuddy-psi.vercel.app/" className='text-decoration-none text-reset'>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />Live demo</b>
                     </a>
                   </div>
                 </div>
@@ -156,7 +159,36 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/DataGrid" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />github link</b>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-3'>
+            <div className="flip-card m-3">
+              <div className="flip-card-inner">
+                <div className="flip-card-front background-dark text-light p-4">
+                  <h3>Multilingual FAQ System</h3>
+                  <hr />
+                  <h4>Stack</h4>
+                  <FontAwesomeIcon icon={faHtml5} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faCss3Alt} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faJs} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faReact} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faNodeJs} size="2x" className='m-1' />
+                  <FontAwesomeIcon icon={faDocker} size='2x' className='m-1' />
+                </div>
+                <div className="flip-card-back background-light p-3">
+                  <p className='text-start'>This FAQ system is designed to support multilingual environments, enabling seamless generation and management of FAQs in multiple languages. It leverages advanced technologies such as Redis for efficient caching and the Google Translate API for accurate and dynamic language translation.
+                  </p>
+                  <p>
+                    HTML5, CSS3, JS, ReactJS, NodeJS, Docker
+                  </p>
+                  <div className='text-end'>
+                    <a href="https://github.com/Surbhi-sinha/Multilingual_FAQ_system_UI" className='text-decoration-none text-reset'>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />github link</b>
                     </a>
                   </div>
                 </div>
@@ -188,7 +220,7 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/desktop_calculator" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />github link</b>
                     </a>
                   </div>
                 </div>
@@ -213,7 +245,7 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/LOGICYIELD.COM" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />github link</b>
                     </a>
                   </div>
                 </div>
@@ -241,7 +273,7 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://tic-tac-toe-six-wine-49.vercel.app/" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />Live demo</b>
                     </a>
                   </div>
                 </div>
@@ -265,7 +297,7 @@ const Projects = () => {
                   </p>
                   <div className='text-end'>
                     <a href="https://github.com/Surbhi-sinha/LOGICYIELD.COM" className='text-decoration-none text-reset'>
-                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} /></b>
+                      <b><FontAwesomeIcon icon={faArrowUpRightFromSquare} />github link</b>
                     </a>
                   </div>
                 </div>
